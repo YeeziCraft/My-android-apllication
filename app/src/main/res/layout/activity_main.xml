@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+</ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    layout_width="match_parent"
+    layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <TextView
+
+        android:id="@+id/The song title"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="my playlist manager"
+        android:textSize="16sp"
+
+        android:textsize="24dp"
+        android:textstyle="bold" />
+
+
+    <EditText
+        android:id="@+id/input_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="The song title" />
+
+    <EditText
+        android:id="@+id/input_Artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Artist" />
+
+    <EditText
+        android:id="@+id/input_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rating(1-5)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/input_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comments"
+
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add To Playlist"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btnview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View playlist"
+        android:textColor="#04940A"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esc"
+        android:textColor="#63F80C"
+        android:textSize="24sp" />
+
+</LinearLayout>
+</scrollview>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
