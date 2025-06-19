@@ -1,3 +1,5 @@
+Khanya Ndamage
+st10488713
 ![Capture.PNG](Capture.PNG)
 ![detailed scrren.PNG](detailed%20scrren.PNG)
 ![ACTIVITY MAN.png](ACTIVITY%20MAN.png)
